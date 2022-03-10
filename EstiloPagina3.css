@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 380px 380px;
+  justify-content: center;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+
+.grid-element {
+  background-color: #f55;
+  color: #fff;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 0.7em;
+}
+h1{
+  text-align:center;
+}
+
+a:link {color: black;}
+a:visited {color: color-value;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
